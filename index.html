@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/lc_lightbox.css">
+    <link rel="stylesheet" href="assets/css/light.css">
+    <link rel="stylesheet" href="assets/css/home-style.css">
+    <link rel="stylesheet" href="assets/css/cart-style.css">
+    <title>Fashion Store</title>
+</head>
+<body>
+<!-- start main navbar  -->
+    <nav class="navbar navbar-main navbar-expand-lg navbar-light ">
+        <div class="container">
+            <div><span class="offer">free shiping on all orders over $75!</span></div>
+          <div>
+            <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto text-center" >
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">Wishlist</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Currency:Usd
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">EG</a></li>
+                  <li><a class="dropdown-item" href="#">EUR</a></li>
+                  <li><a class="dropdown-item" href="#">GBP</a></li>
+                </ul>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+<!-- end main navbar  -->
+
+<!-- start search  -->
+    
+    <div class="search">
+        <form class="d-flex justify-content-center">
+          <input class="form-control me-2" type="search" name="search" placeholder="Search Here What You Need...." aria-label="Search">
+          <button class="btn btn-outline-success " type="submit">Search</button>
+        </form>
+    </div>
+
+<!-- end search -->
+
+
+<!-- start sec nav  -->
+<nav class="navbar navbar-sec navbar-expand-lg navbar-light ">
+    <div class="container">
+        <a href="#"><img src="assets/imgs/logo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link"  href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Foot Wear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<!-- end sec nav  -->
+
+<!-- start header -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <div class="box"> 
+                <div class="layer d-flex flex-column justify-content-center align-items-center">
+                    <span class="span-style">Somthings is better</span>
+                    <h1>Fashion Lorrem</h1>
+                </div>
+                <img src="assets/imgs/header1.jpg" class="d-block w-100"  alt="...">
+          </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="box"> 
+                <div class="layer d-flex flex-column justify-content-center align-items-center">
+                    <span class="span-style">Somthings is better</span>
+                    <h1>Fashion Lorrem</h1>
+                </div>
+                <img src="assets/imgs/header2.jpg" class="d-block w-100"  alt="...">
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="box"> 
+                <div class="layer d-flex flex-column justify-content-center align-items-center">
+                    <span class="span-style ">Somthings is better</span>
+                    <h1>Fashion Lorrem</h1>
+                </div>
+                <img src="assets/imgs/header3.jpg" class="d-block w-100"  alt="...">
+          </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- end header -->
+<main>
+    <!-- start collection section  -->
+    <section class="collection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="content">
+                        <img src="assets/imgs/collection1.jpg" alt="">
+                        <span class="span-style text-black-50">Hot Collection</span>
+                        <h1>new trend for Women</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate ut incidunt nostrum, in illum consequatur enim reprehenderit possimus. Corrupti, perspiciatis est. Fuga recusandae molestiae vero alias illo, odit deleniti pariatur.</p>
+                        <button class="btn btn-light px-5">Shop Now</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="sec-content">
+                        <div class="image">
+                            <img src="assets/imgs/collection4.jpg" alt="">
+                            <div class="view-collection">
+                                <a href="" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="assets/imgs/collection3.jpg" alt="">
+                            <div class="view-collection">
+                                <a href="" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="assets/imgs/collection2.jpg" alt="">
+                            <div class="view-collection">
+                                <a href="" class="btn btn-dark">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end collection section  -->
+    
+   <!-- start feature section  -->
+<section class="featured">
+    <div class="container">
+      <h2 class="main-title">featured items</h2>
+      <div>
+        <ul class="category">
+          <li><a href="{{route('redirect')}}">All</a></li>
+          <li><a href="{{route('men-category')}}">Men</a></li>
+          <li><a href="{{route('women-category')}}">Women</a></li>
+          <li><a href="{{route('child-category')}}">Child</a></li>
+        </ul>
+      </div>
+      <div class="row">   
+      <div class="box col-md-3">
+        <div class="product">
+          <img id="product-img"  src="assets/imgs/product-2.jpg" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/product-2.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/product-1.jpg" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/product-1.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+
+        </div>
+      </div>
+
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/product-3.jpg" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <<div class="layer">
+            <a href="assets/imgs/product-3.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+          
+          </div>
+
+        </div>
+
+
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/product-4.jpg" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/product-4.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+          
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  </section>
+  <!-- end feature section  -->
+  <!-- start trend section  -->
+  <section class="trend">
+    <div class="container">
+      <h2 class="main-title">trending items</h2>
+      <div class="row">
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-1.jpg" alt="">
+            <span>$150.00</span>
+            <div class="discount">
+              <span>20%</span>
+              <span>OFF</span>
+            </div>
+            <div class="layer">
+                <a href="assets/imgs/product-1.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+              </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+
+          </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-2.jpg" alt="">
+            <span>$150.00</span>
+            <div class="layer">
+            <a href="assets/imgs/product-2.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-3.jpg" alt="">
+            <span>$120.00</span>
+            <div class="layer">
+            <a href="assets/imgs/product-3.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-4.jpg" alt="">
+            <span>$130.00</span>
+            <div class="discount">
+              <span>20%</span>
+              <span>OFF</span>
+            </div>
+            <div class="layer">
+            <a href="assets/imgs/product-4.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-5.jpg" alt="">
+            <span>$110.00</span>
+            <div class="layer">
+            <a href="assets/imgs/product-5.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-6.jpg" alt="">
+            <span>$100.00</span>
+            <div class="layer">
+            <a href="assets/imgs/product-6.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-1.jpg" alt="">
+            <span>$140.00</span>
+            <div class="layer">
+            <a href="assets/imgs/product-1.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+        </div>
+        <div class="box col-md-3">
+          <div class="product">
+            <img src="assets/imgs/product-3.jpg" alt="">
+            <span>$150.00</span>
+            <div class="discount">
+              <span>20%</span>
+              <span>OFF</span>
+            </div>
+            <div class="layer">
+            <a href="assets/imgs/product-3.jpg"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+          </div>
+          <div class="info">
+            <h3>suspendisse et.</h3>
+            <div class="rate">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="like">
+              <span><i class="fa-solid fa-heart"></i></span>
+              <span><i class="fa-solid fa-share-nodes"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+             
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row more" style="display: none;" >
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-1.png" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-1.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+
+        </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-2.png" alt="">
+          <span>$150.00</span>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-2.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-4.png" alt="">
+          <span>$120.00</span>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-4.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-5.png" alt="">
+          <span>$130.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-5.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-6.png" alt="">
+          <span>$110.00</span>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-6.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/t-shirt-1.png" alt="">
+          <span>$100.00</span>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-1.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-1.png" alt="">
+          <span>$140.00</span>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-1.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+      </div>
+      <div class="box col-md-3">
+        <div class="product">
+          <img src="assets/imgs/polo-shirt-4.png" alt="">
+          <span>$150.00</span>
+          <div class="discount">
+            <span>20%</span>
+            <span>OFF</span>
+          </div>
+          <div class="layer">
+            <a href="assets/imgs/polo-shirt-4.png"  class="elem" ><i class="fa-solid fa-4x fa-eye"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <h3>suspendisse et.</h3>
+          <div class="rate">
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+            <span><i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="like">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-share-nodes"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           
+          </div>
+      </div>
+    </div>
+    </div>
+      </div>
+      <div class="button d-flex justify-content-center align-items-center my-5 py-5">
+        <button class="btn load-more btn btn-outline-secondary px-5">Load More</button>
+      </div>
+      <div class="image position-relative">
+        <img src="assets/imgs/trend.jpg" alt="">
+        <div class="info">
+          <i class="fa-solid fa-quote-left"></i>
+          <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eaque voluptas officiis perferendis adipisci expedita veniam ex ipsam dolorum dolores quisquam quo ut optio alias consequuntur. Sunt beatae eius ad? </q>
+        </div>
+      </div>
+</section>
+  <!-- end trend section  -->
+     
+
+
+
+
+
+    <!-- start blogs  -->
+    <section class="blogs">
+      <h2 class="main-title">lastest blog</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <img src="assets/imgs/blogs1.webp" alt="">
+              <h3>Men Fashion</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minus? Quo aliquid quod, architecto eligendi officiis laborum natus, necessitatibus placeat ab obcaecati sed voluptas iste ullam nesciunt fugit porro ipsum.</p>
+              <a href="#" class="btn btn btn-outline-secondary">READ MORE</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <img src="assets/imgs/blogs2.webp" alt="">
+              <h3>Women Fashion</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minus? Quo aliquid quod, architecto eligendi officiis laborum natus, necessitatibus placeat ab obcaecati sed voluptas iste ullam nesciunt fugit porro ipsum.</p>
+              <a href="#" class="btn btn btn-outline-secondary">READ MORE</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <img src="assets/imgs/blogs3.webp" alt="">
+              <h3>Kids Fashion</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, minus? Quo aliquid quod, architecto eligendi officiis laborum natus, necessitatibus placeat ab obcaecati sed voluptas iste ullam nesciunt fugit porro ipsum.</p>
+              <a href="#" class="btn btn btn-outline-secondary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end blogs  -->
+    <!-- start brand  -->
+    <section class="brand">
+      <h3 class="main-title">Shop By Brand</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box">
+              <img src="assets/imgs/brand1.jpg" alt="">
+              <a href="https://www.adidas.com.eg/" target="_blanck"> Adidas Brand</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <img src="assets/imgs/brand2.jpg">
+              <a href="https://dejavu.shoes/" target="_blanck"> Dejavu Brand</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <img src="assets/imgs/brand5.jpg" alt="">
+              <a href="https://www.zara.com/" target="_blanck"> Zara Brand</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <img src="assets/imgs/brand4.jpg" alt="">
+              <a href="https://www.lcwaikiki.eg" target="_blanck"> lcwaikiki Brand</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end brand  -->
+</main>
+
+
+
+<!-- start footer  -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="content">
+            <h3>SHOPS</h3>
+            <ul>
+              <li><a href="#">New In</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Bags & Accessories</a></li>
+              <li><a href="#">Top Brands</a></li>
+              <li><a href="#">Sale & Special Offers</a></li>
+              <li><a href="#">Look Book</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <h3>INFORMATION</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">New Collection</a></li>
+              <li><a href="#">Best Seller</a></li>
+              <li><a href="#">Manfucture</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+              <li><a href="#">Search Terms</a></li>
+              <li><a href="#">Advanced Search</a></li>
+              <li><a href="#">Orders & Returns</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Rss</a></li>
+              <li><a href="#">Help & FAQS</a></li>
+              <li><a href="#">Consultant</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <h3>NEWS LETTER</h3>
+            <form action="">
+              <label for="">Sign Up For Letter</label>
+              <input type="email" placeholder="Type Your E-mail">
+              <input type="submit" value="SUBSCRIBE" class="btn btn-primary">
+            </form>
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-google"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer  -->
+  <div class="copy-right">
+    <div class="container">
+      <div>
+        <span>&copy; 2022 Fashion Store</span>
+        <span>Made By : Karim Atef</span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/home.js"></script>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/lc_lightbox.lite.js"></script>
+<script src="assets/js/alloy_finger.js"></script>
+<script>
+lc_lightbox('.elem', {
+  wrap_class:'lcl_fade_oc',
+  gallery :true,
+  thumb_attr:'data-lcl-thumb',
+  skin:'dark',
+});
+
+</script>
+</html>
